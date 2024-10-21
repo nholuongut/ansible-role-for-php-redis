@@ -1,0 +1,30 @@
+---
+dependencies:
+  - nholuong.php
+
+galaxy_info:
+  role_name: php-redis
+  author: nholuong
+  description: PhpRedis support for Linux
+  company: "Midwestern Mac, LLC"
+  license: "license (BSD, MIT)"
+  min_ansible_version: 2.4
+  platforms:
+    - name: EL
+      versions:
+        - 7
+        - 8
+    - name: Debian
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - all
+  galaxy_tags:
+    - database
+    - web
+    - php
+    - redis
+    - cache
+    - performance
+    - kv
